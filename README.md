@@ -1,5 +1,5 @@
 <p>
-  Added basic auth functionality. Use --username and --password as parameters (nodejs version).
+  Added basic auth functionality. Use --user and --pass as parameters (nodejs version).
 </p>
 
 <hr />
