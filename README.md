@@ -1,6 +1,8 @@
 <p>
-  Added basic auth functionality. Use --username and --password as parameters.
+  Added basic auth functionality. Use --username and --password as parameters (nodejs version).
 </p>
+
+<hr />
 
 <h1 align="center">
   <a href="https://afaqurk.github.io/linux-dash">
