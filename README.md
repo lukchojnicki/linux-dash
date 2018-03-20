@@ -1,3 +1,7 @@
+<p>
+  Added basic auth functionality. Use --username and --password as parameters.
+</p>
+
 <h1 align="center">
   <a href="https://afaqurk.github.io/linux-dash">
     <img src="https://raw.githubusercontent.com/afaqurk/screenshots/master/linux-dash/v2.0-logo.png"/>
