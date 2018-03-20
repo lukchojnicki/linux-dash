@@ -16,10 +16,12 @@ server.listen(port, function() {
 })
 
 app.use(function(req, res, next) {
-  var auth_req = auth(req);
-  if (!auth_req || user !== auth_req.name || pass !== auth_req.pass) {
-    res.set('WWW-Authenticate', 'Basic realm="Prohibited"');
-    return res.status(401).send();
+  if (user && pass) {
+   var auth_req = auth(req);
+   if (!auth_req || user !== auth_req.name || pass !== auth_req.pass) {
+     res.set('WWW-Authenticate', 'Basic realm="Prohibited"');
+     return res.status(401).send();
+   }
   }
   return next();
 });
